@@ -3,7 +3,7 @@ $tablename=$_GET['poll'];
 //echo $tablename;
 $ip=$_SERVER['REMOTE_ADDR'];
 
-$con=mysqli_connect('localhost','id8815678_fgietpoll','fgietpolldb','id8815678_fgietpoll');
+$con=mysqli_connect('localhost','database_username','password','database_name');
 
 $q="SELECT `question` FROM `yourpoll` WHERE pollid='$tablename'";
 $re=mysqli_query($con,$q);
