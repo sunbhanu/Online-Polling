@@ -3,7 +3,7 @@
 
 $qu=$_GET['question'];
 $paw=$_GET['pswd'];
-$con=mysqli_connect('localhost','id8815678_fgietpoll','fgietpolldb','id8815678_fgietpoll');
+$con=mysqli_connect('localhost','database_username','password','database_name');
 
 $q="INSERT INTO `yourpoll` (`question`, `pass`) VALUES ('$qu', '$paw');";
 mysqli_query($con,$q);
