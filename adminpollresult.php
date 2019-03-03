@@ -2,7 +2,7 @@
 <html lang="en">
    <?php
         
-        $con=mysqli_connect('localhost','id8815678_fgietpoll','fgietpolldb','id8815678_fgietpoll');
+        $con=mysqli_connect('localhost','database_username','password','database_name');
         //for number of yes
         $q="SELECT COUNT(*) FROM `adminpoll` WHERE ans=1";
         $res = mysqli_query($con,$q);
