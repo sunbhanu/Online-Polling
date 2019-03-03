@@ -3,7 +3,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 
 $ans=$_POST['optradio'];
 
-$con=mysqli_connect('localhost','id8815678_fgietpoll','fgietpolldb','id8815678_fgietpoll');
+$con=mysqli_connect('localhost','database_username','password','database_name');
 //if($ans!=1||$ans!=2||$ans!=3)
 //{
 //    header('Location: index.php');
